@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+2&family=Nunito:ital,wght@0,400;0,600;0,800;1,400&family=Poppins:wght@500;600&display=swap');
+
+:root{
+    
+    --black:#192a56;
+    --light-color:#666;
+    --box-shadow:0   .5rem 1.5rem rgba(0,0,0,.1);
+}
+
+*{
+    padding: 0%; margin: 0%;
+    box-sizing: border-box;
+    text-decoration: none;
+    outline: none;
+    border: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+    list-style: none;
+}
+
+html{
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 5.5rem;
+    scroll-behavior: smooth;
+}
+.maintitle{
+    color: var(--black);
+    font-size: 2rem;
+    margin-top: 1rem;
+    text-align: center;
+}
+.title{
+    color: #005696;
+    text-align: center;
+    font-size: 2rem;
+}
+.subtitle{
+    color: var(--black);
+    font-size: 1.7rem;
+    text-align: center;
+}
+ .container{
+    width: 60rem;
+    
+ }
+.container form{
+    
+    max-width: 50rem;
+    background-color: #fff;
+    box-shadow: var(--box-shadow);
+    border-radius: .5rem;
+    border: .1rem solid var(0,0,0,.2);
+    padding: 1.5rem;
+    margin: 0 auto;
+}
+.container form .inputbox .input{
+    width: 100%;
+}
+.container form .inputbox .input span {
+
+    padding: 1.5rem 0;
+    font-size: 1.7rem;
+    color: var(--light-color);
+    display: block;
+}
+
+.container form .inputbox .input input,
+   .container form .inputbox .input textarea{
+      
+  /* background-color: #eee;
+   */
+   color: var(--light-color);
+   border: .3rem solid #eee;
+  border-radius: .5rem;
+  padding: 1rem;
+  font-size: 1.7rem;
+  color: var(--black);
+  text-transform: none;
+  margin-bottom: 1rem;
+  width: 100%;
+   }
+   .container form .inputbox .input textarea{
+    
+    height: 14rem;
+
+
+   }
+   .btn{
+    background-color: #005696;
+    color: #fff;
+    padding: 1rem 2rem;
+    font-size: 2rem;
+    border-radius: 1rem;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+   }
+   .security{
+    color: var(--light-color);
+    font-size: 1.7rem;
+    text-align: center;
+    margin-top: 1rem;
+   }
